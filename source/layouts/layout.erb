@@ -18,7 +18,6 @@
   <title><%= data.page.title || "The Middleman" %></title>
 
   <%= stylesheet_link_tag "all" %>
-  <%= javascript_include_tag  "all" %>
 
   <!-- IE Fix for HTML5 Tags -->
   <!--[if lt IE 9]>
@@ -30,5 +29,7 @@
   <div class="row">
     <%= yield %>
   </div>
+
+  <%= javascript_include_tag  "all" %>
 </body>
 </html>

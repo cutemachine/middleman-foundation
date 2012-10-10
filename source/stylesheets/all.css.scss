@@ -1,4 +1,4 @@
-// You custom settings file to override Foundation defaults
+// You custom settings file to override Foundation defaults (MUST EDIT `_settings.css.scss` FOR SOME IMPORTS TO WORK)
 @import "settings";
 
 // Comment out this import if you are customizing you imports below
@@ -14,7 +14,7 @@
 
 // Control which mixins you have access too
 
-// @import "foundation/mixins/clearfix";
+// @import "foundation/mixins/clearfix"; // MUST INCLUDE for `foundation/components/grid` to work
 // @import "foundation/mixins/css-triangle";
 // @import "foundation/mixins/font-size";
 
@@ -24,7 +24,7 @@
 // @import "foundation/mixins/semantic-grid";
 
 // @import "foundation/common/globals";
-// @import "modular-scale";
+// @import "modular-scale"; // MUST INCLUDE for `foundation/common/typography` to work
 
 // Must include the grid for any responsiveness
 

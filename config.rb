@@ -6,6 +6,11 @@ preferred_syntax = :scss
 
 
 ###
+# LiveReload
+###
+activate :livereload
+
+###
 # Compass
 ###
 

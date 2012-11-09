@@ -1,4 +1,5 @@
 source :rubygems
 
 gem "middleman", "~>3.0.5"
-gem "zurb-foundation", "~>3.1.1"
+gem "middleman-livereload"
+gem "zurb-foundation", "~>3.2.0"
